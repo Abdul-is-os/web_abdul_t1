@@ -1,45 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <title>SALIRIYA</title>
-    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENMON NO NIHON</title>
+    
+    <style>
+        /* Mengatur dasar halaman */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        /* Bagian Header (Kepala Website) */
+        header {
+            background-color: #d50202;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            align-items: center;
+            justify-content: flex-start;   
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* Bagian Navigasi Menu */
+        nav {
+            background-color: #d50202;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none; /* Menghilangkan bulatan list */
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline; /* Membuat menu jadi horizontal */
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none; /* Menghilangkan garis bawah link */
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #f0c040; /* Efek saat kursor di atas link */
+        }
+
+        /* Konten Utama */
+        main {
+            width: 80%;
+            margin: 20px auto; /* Margin atas-bawah 20px, auto kiri-kanan (biar di tengah) */
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        section {
+            margin-bottom: 30px; /* Jarak antar bagian (tentang, visi, dll) */
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #f0c040;
+            padding-bottom: 5px;
+        }
+
+        /* Bagian Footer (Kaki Website) */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 30px;
+        }
+    </style>
 </head>
 <body>
-    <!--header-->
-    <div class="container-fluid"><center> 
-        <div class="row" style="background: #702963; color: white">
-            <div class="col-md-12">
-                <h1>SENMON NO NIHON</h1>
-                <p> ini latihan layout dan test pertama</p>
+
+    <header>
+        <img src="images/logo senmon.png" alt="Logo UKM Musik" width="100" height="100">
+        <h1>SENMON NO NIHON</h1>
+        <p>Universitas Teknologi Bandung</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#tentang">Tentang Kami</a></li>
+            <li><a href="#kegiatan">Kegiatan</a></li>
+            <li><a href="#bergabung">Bergabung</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="beranda">
+            <h2>Selamat Datang!</h2>
+            <p>Selamat datang di website resmi UKM Musik "Nada Kampus". Kami adalah wadah bagi mahasiswa Universitas Harapan Bangsa yang memiliki minat dan bakat di bidang musik. </p>
+            <p>Temukan informasi terbaru seputar kegiatan kami, jadwal latihan, dan cara bergabung dengan keluarga besar kami.</p>
+        </section>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Pendiri Kami</h2>
+                    <p> <img src="images/WhatsApp Image 2025-10-21 at 12.57.49.jpeg" width="130" height="130" >  </p>
+                    <p>Pendiri dari UKM ini adalah kang hasbi dan kang Egi</p>
+                </div>
             </div>
-        </div></center>
-    </div>
-    <!--content-->
-    <div class="row">
-        <div class="col-md-12">
-            <center><h2>ISI KONTEN</h2></center>
-            <p>Hei kaikki, tiesitkö, että Vaporeon on ihmisille sopivin Pokémon mies-ihmis- ja naispuolisten Pokémonien lisääntymisen kannalta? Ne eivät ole ainoastaan ​​kenttämunaryhmässä, joka koostuu enimmäkseen nisäkkäistä, vaan myös Vaporeonit ovat keskimäärin 90 cm pitkiä ja 29 kg painavia. Tämä tarkoittaa, että ne ovat riittävän suuria selviytymään ihmispenisistä. Vaikuttavien HP-perustilastojensa ja happopanssarinsa ansiosta niiden kanssa voi olla kovaakin. Koska ne ovat enimmäkseen vesipohjaisia, ei ole epäilystäkään siitä, etteikö kiihottunut Vaporeon olisi uskomattoman märkä, niin märkä, että voisit helposti harrastaa seksiä tuntikausia kipeytymättä. Ne voivat myös oppia liikkeet: Viehätysvoima, Vauvan silmät, Lumous, Viehätysvoima ja Tail Whip, ja niillä ei ole karvoja nännien peittämiseksi, joten niiden on uskomattoman helppo saada sinut sopivaan tunnelmaan. Vedenimeytys- ja Nesteytyskykyjensä ansiosta ne voivat helposti toipua väsymyksestä riittävällä määrällä vettä. Mikään muu Pokémon ei ole lähelläkään tätä yhteensopivuuden tasoa. Hauska fakta on myös se, että jos vedät tarpeeksi ulos, voit saada Vaporeonisi muuttumaan valkoiseksi. Vaporeon on kirjaimellisesti tehty ihmispenisille. Jumalaton puolustustilasto + korkea HP-allas + happopanssari tarkoittavat, että se voi... ota kukkoa koko päivän, kaikenmuotoisia ja -kokoisia, ja tule silti hakemaan lisää</p>
-    </div>
-    <!--conten2-->
-    <div class="row">
-        <div class="col-md-4">
-            <h2>Isi Konten 2</h2>
-            <p>Hei kaikki, tiesitkö, että Vaporeon on ihmisille sopivin Pokémon mies-ihmis- ja naispuolisten Pokémonien lisääntymisen kannalta? Ne eivät ole ainoastaan ​​kenttämunaryhmässä, joka koostuu enimmäkseen nisäkkäistä, vaan myös Vaporeonit ovat keskimäärin 90 cm pitkiä ja 29 kg painavia. Tämä tarkoittaa, että ne ovat riittävän suuria selviytymään ihmispenisistä. </p>            
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Sejarah Singkat</h2>
+                    <p>UKM Musik "Nada.</p>
+            </div>
+            </div>
         </div>
-        <div class="col-md-4">
-            <h2>Isi Konten 3</h2>
-            <p> <img src="images/bahlil.webp" width="500" height="198"> </p>  
-        </div>
-        <div class="col-md-4">
-            <h2>Isi Konten 4</h2>
-            <p>Hei kaikki, tiesitkö, että Vaporeon on ihmisille sopivin Pokémon mies-ihmis- ja naispuolisten Pokémonien lisääntymisen kannalta? Ne eivät ole ainoastaan ​​kenttämunaryhmässä, joka koostuu enimmäkseen nisäkkäistä, vaan myös Vaporeonit ovat keskimäärin 90 cm pitkiä ja 29 kg painavia. Tämä tarkoittaa, että ne ovat riittävän suuria selviytymään ihmispenisistä. </p>
-        </div>
-    </div>
-    <!--footer-->
-    <div class="container-fluid">
-        <div class="row" style="background: #702963; color: white">
-            <div class="col-md-12">
-                <center><p>SEKIAN</p></center>
-            </div>  
+<!-- 
+        <section id="tentang">
+            <h2>Tentang Kami</h2>
+            <img src="images/logo senmon.png" alt="logo senmon" width="100" height="100">
+            <p>UKM Musik "Nada Kampus" didirikan pada tahun 2010 dengan tujuan untuk mengembangkan potensi mahasiswa di bidang seni musik, baik modern maupun tradisional. Kami percaya bahwa musik adalah bahasa universal yang dapat menyatukan perbedaan.</p>
+            
+            <h3>Visi</h3>
+            <p>Menjadi unit kegiatan mahasiswa yang unggul dalam prestasi dan kreativitas di bidang musik, serta berkontribusi aktif dalam kehidupan seni di lingkungan kampus dan masyarakat.</p>
+
+            <h3>Misi</h3>
+            <ul>
+                <li>Menyelenggarakan latihan rutin dan workshop musik.</li>
+                <li>Mengadakan pertunjukan musik dan festival.</li>
+                <li>Berpartisipasi dalam kompetisi musik antar universitas.</li>
+            </ul>
+        </section>
+-->
+        <section id="kegiatan">
+            <h2>Kegiatan Kami</h2>
+            <p>Kami memiliki berbagai program dan kegiatan rutin, di antaranya:</p>
+            <ul>
+                <li>Latihan Rutin (Setiap hari Selasa & Jumat)</li>
+                <li>Jamming Session</li>
+                <li>Workshop Alat Musik (Gitar, Drum, Vokal)</li>
+                <li>Pentas Musik Kampus (Bulanan)</li>
+                <li>Festival Musik Tahunan "Nada Fest"</li>
+            </ul>
+        </section>
+
+        <section id="bergabung">
+            <h2>Tertarik Bergabung?</h2>
+            <p>Pendaftaran anggota baru dibuka setiap awal semester. Jangan ragu untuk menjadi bagian dari kami!</p>
+            <p>Syarat pendaftaran sangat mudah:</p>
+            <ol>
+                <li>Mahasiswa aktif Universitas Harapan Bangsa.</li>
+                <li>Memiliki minat di bidang musik (tidak harus sudah ahli!).</li>
+                <li>Mengisi formulir pendaftaran di sekretariat kami.</li>
+            </ol>
+            <p>Untuk informasi lebih lanjut, hubungi kami melalui:</p>
+            <p><strong>Email:</strong> info@nadamusikkampus.com<br>
+               <strong>Instagram:</strong> @nadamusikkampus<br>
+               <strong>Sekretariat:</strong> Gedung Student Center Lt. 2</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 UKM Musik "Nada Kampus". All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
