@@ -1,0 +1,87 @@
+/* Pengaturan Dasar Halaman */
+body {
+    font-family: Arial, sans-serif; /* Jenis font standar */
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Warna latar belakang abu-abu muda */
+    color: #333; /* Warna teks utama (hitam) */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header (Bagian atas) */
+header {
+    background-color: #bc002d; /* Warna merah bendera jepang */
+    color: #ffffff; /* Warna teks putih */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #ffffff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em; /* Ukuran font judul utama */
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em; /* Ukuran font sub-judul */
+}
+
+/* Kontainer (Pembungkus Konten) */
+.container {
+    max-width: 960px; /* Lebar maksimum konten */
+    margin: 20px auto; /* Membuat konten berada di tengah */
+    padding: 20px;
+    background-color: #ffffff; /* Latar belakang konten (putih) */
+    border-radius: 8px; /* Sudut melengkung */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Bayangan halus */
+}
+
+/* Pengaturan untuk setiap bagian (section) */
+section {
+    margin-bottom: 25px; /* Jarak antar bagian */
+}
+
+/* Judul Bagian (H2) */
+section h2 {
+    color: #bc002d; /* Warna merah untuk judul bagian */
+    border-bottom: 2px solid #f0f0f0; /* Garis bawah halus */
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/* Pengaturan Paragraf */
+p {
+    margin-bottom: 15px;
+}
+
+/* Pengaturan Daftar (List) untuk Kegiatan */
+#kegiatan ul {
+    list-style-type: none; /* Menghilangkan bulatan standar */
+    padding-left: 0;
+}
+
+#kegiatan li {
+    background-color: #f9f9f9;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-left: 5px solid #bc002d; /* Garis merah di kiri list */
+}
+
+/* Bagian "Join Us" */
+#join p {
+    font-style: italic;
+    color: #555;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+/* Footer (Bagian bawah) */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #333;
+    color: #f4f4f4;
+    font-size: 0.9em;
+}
